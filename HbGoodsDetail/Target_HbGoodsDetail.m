@@ -9,7 +9,7 @@
 #import "Target_HbGoodsDetail.h"
 #import "HbGoodsDetailViewController.h"
 
-@implementation Target_TAGoodsDetail
+@implementation Target_HbGoodsDetail
 
 - (UIViewController *)Action_GoodsDetailViewController:(NSDictionary *)params
 {

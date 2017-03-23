@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "HbGoodsDetail”
+  s.name         = "HbGoodsDetail"
   s.version      = "0.0.1"
   s.summary      = "A Library for iOS to use for example"
   s.homepage     = "https://github.com/haobingsh/HbGoodsDetail"

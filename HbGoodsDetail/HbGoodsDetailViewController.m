@@ -7,7 +7,7 @@
 //
 
 #import "HbGoodsDetailViewController.h"
-#import <HbConfirmOrderBusinessCategory/CTMediator+HbConfirmOrder.h>
+//#import <HbConfirmOrderBusinessCategory/CTMediator+HbConfirmOrder.h>
 
 @interface HbGoodsDetailViewController ()
 
@@ -52,14 +52,14 @@
 #pragma mark - event
 - (void)didClickBuyButton:(UIButton *)button
 {
-    UIViewController *confirmOrderVC = [[CTMediator sharedInstance] confirmOrderViewControllerWithGoodsId:self.goodsId
-                                                                                                goodsName:self.goodsName
-                                                                                          ConfirmComplete:^{
-        self.statusLabel.text = @"购买成功";
-    }];
-    if (confirmOrderVC) {
-        [self presentViewController:confirmOrderVC animated:YES completion:nil];
-    }
+//    UIViewController *confirmOrderVC = [[CTMediator sharedInstance] confirmOrderViewControllerWithGoodsId:self.goodsId
+//                                                                                                goodsName:self.goodsName
+//                                                                                          ConfirmComplete:^{
+//        self.statusLabel.text = @"购买成功";
+//    }];
+//    if (confirmOrderVC) {
+//        [self presentViewController:confirmOrderVC animated:YES completion:nil];
+//    }
 }
 
 - (UIButton *)buyButton
